@@ -14094,3 +14094,8 @@ a:visited {
 .timeline.no-headers .timeline-item.is-last::before {
   height: 1.2rem
 }
+.box.cajasSecciones{
+  size: 75% 10%;
+  margin: 1em;
+  padding: 10px;    
+}
