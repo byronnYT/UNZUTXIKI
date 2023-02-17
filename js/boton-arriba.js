@@ -1,16 +1,24 @@
-// Mostrar el botón cuando el usuario haya desplazado 3% de la página
-  window.onscroll = function() {
-    if (document.body.scrollTop > (document.body.scrollHeight * 0.03) || document.documentElement.scrollTop > (document.documentElement.scrollHeight * 0.03)) {
-      document.getElementById("btn-top").classList.remove("is-hidden");
+$(document).ready(function () {
+
+  $(window).scroll(function () {
+    if ($(this).scrollTop() > 0) {
+      $('.sidebar').fadeIn(300);
     } else {
-      document.getElementById("btn-top").classList.add("is-hidden");
+      $('.sidebar').fadeOut(300);
     }
-  };
-  
-  // Desplazamiento suave al hacer clic en el botón
-  document.getElementById("btn-top").addEventListener("click", function() {
-    window.scrollTo({
-      top: 0,
-      behavior: "smooth"
-    });
   });
+
+  $('.ir-arriba').click(function () {
+    $('body, html').animate({
+      scrollTop: '0px'
+    }, 300);
+  });
+
+  $(window).scroll(function () {
+    if ($(this).scrollTop() > 0) {
+      $('.ir-arriba').slideDown(100);
+    } else {
+      $('.ir-arriba').slideUp(100);
+    }
+  });
+});
