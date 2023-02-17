@@ -7,11 +7,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style.css">
 	<link rel="shortcut icon" href="./Imagenes/LogoColoresDefinitivo.png">
-	<script src="https://kit.fontawesome.com/9ad3ec13bd.js" crossorigin="anonymous"></script>	
+	<script src="https://kit.fontawesome.com/9ad3ec13bd.js" crossorigin="anonymous"></script>
+	<script src="http://code.jquery.com/jquery-latest.js"></script>
+	<script src="./js/boton-arriba.js"></script>
 	<title>Unzutxiki Berri | Asociación</title>
 </head>
 <body>
 <header>
+	<span class="ir-arriba has-text-centered"><i class="fa-solid fa-chevron-up"></i></span>
 	<section class="hero is-success is-fullheight">
 		<div class="hero-head">
 		   <nav class="navbar sticky">
@@ -35,7 +38,7 @@
 						<a class="navbar-item" href="./src/transparencia/2022.html">
 						  2022
 						</a>
-						<a class="navbar-item" href="./src/transparencia/2023.html">
+						<a class="navbar-item" href="#">
 						  2023
 						</a>
 					  </div>
@@ -69,46 +72,25 @@
 			</div>
 	</section>
 </header>
-<section class="section is-medium">
-	<div class="container">
-		<div class="columns">
-			<div class="column is-two-thirds">
-				<h1 class="title">Asociación Unzutxiki Berri</h1>
-				<p>La Asociación Unzutxiki Berri es una entidad que nació en el año 2014
-					 con el objetivo de conseguir que los vecinos de los barrios de Buztintxuri
-					  y Rochapea de Pamplona tuvieran cubiertas sus necesidades básicas 
-					  además de fomentar la inclusión social, la igualdad y el voluntariado.
-					   Colabora con entidades como la Fundación "la Caixa" y "CaixaBank",
-					    la Fundación Core y el Gobierno de Navarra.
-					</p>
-			</div>
-			<div class="column">
-				<figure class="image is-4by3">
-					<img src="./Imagenes/TomateFrito.jpg" alt="Imagen de la Asociación Unzutxiki Berri">
-				</figure>
-			</div>
-		</div>
-	</div>
-</section>
-	<!--esto sera lo de los reciadros con lso datos del proyecto hay puestas fotos para señalizar como sera pero sera otra cosa-->
-	<div class="box">
+
+<div class="box">
 	<nav class="level">
 		<div class="level-item has-text-centered">
 		  <div>
 			<p class="heading">kilos dispensados</p>
-			<p class="title">X</p>
+			<p class="title">26.423.000 kg</p>
 		  </div>
 		</div>
 		<div class="level-item has-text-centered">
 		  <div>
 			<p class="heading">Euros recaudados</p>
-			<p class="title">X<i class="fa-solid fa-euro-sign"></i></p>
+			<p class="title">234.988 <i class="fa-solid fa-euro-sign"></i></p>
 		  </div>
 		</div>
 		<div class="level-item has-text-centered">
 		  <div>
 			<p class="heading">Nº Volutarios</p>
-			<p class="title">X</p>
+			<p class="title">415</p>
 			
 		  </div>
 		</div>
@@ -116,16 +98,74 @@
 		  <div>
 			
 			<p class="heading">Familias afiliadas</p>
-			<p class="title">X</p>
+			<p class="title">254</p>
 		  </div>
 		</div>
-		
 	  </nav>
-	  
 	</div>
+	
+	
+<section class="section is-medium">
+	<div class="container">
+		<div class="columns">
+			<div class="column is-two-thirds">
+				<h1 class="title">Asociación Unzutxiki Berri</h1>
+				<p class="subtitle">La Asociación Unzutxiki Berri es una entidad que nació en el año 2014
+					 con el objetivo de conseguir que los vecinos de los barrios de Buztintxuri
+					  y Rochapea de Pamplona tuvieran cubiertas sus necesidades básicas 
+					  además de fomentar la inclusión social, la igualdad y el voluntariado.
+					   Colabora con entidades como la Fundación "la Caixa" y "CaixaBank",
+					    la Fundación Core y el Gobierno de Navarra.
+				</p>
+			</div>
+			<div class="column">
+				<figure class="image is-4by3">
+					<img src="./Imagenes/GenteCopmprando.jpg" alt="Imagen de la Asociación Unzutxiki Berri">
+				</figure>
+			</div>
+		</div>
+	</div>
+</section>
+<!--esto se ha planteado como secion de noticias pero si hacemos apartados separados de 
+	lo de transaparencia ,historia y movidas de esas , yo lo platee para usarlos como enlace-->
+<div class="columns">
+	<div class="box cajasSecciones">
+		<h2 class="title is-4">Voluntariado</h2>
+		<p>El voluntariado es una actividad en la que una persona presta su tiempo 
+			y esfuerzo de forma desinteresada para ayudar a otros o contribuir a una causa.
+			 Puede realizarse en distintos ámbitos, como organizaciones sin fines de lucro,
+			  hospitales, escuelas, entre otros.
+		</p>
+	</div>
+	<div class="box cajasSecciones">
+		<h2 class="title is-4">Historia </h2>
+		<p>La historia es el estudio de los hechos del pasado que han dejado huella en la 
+			sociedad y han influido en el presente. La historia se divide en distintas épocas,
+			 desde la Prehistoria hasta la actualidad, y se enfoca en aspectos políticos, 
+			 sociales, culturales, económicos y religiosos.
+		</p>
+	</div>
+	<div class="box cajasSecciones">
+		<h2 class="title is-4">Asociaciones</h2>
+		<p>Una asociación es un grupo de personas que se unen para lograr un objetivo en común.
+			 Las asociaciones pueden ser de distintos tipos, como culturales, deportivas,
+			  sociales, entre otras. Estas organizaciones suelen estar regidas por estatutos 
+			  y elegir a sus dirigentes a través de elecciones.
+		</p>
+	  </div>
+	<div class="box cajasSecciones">
+		<h2 class="title is-4">Transparencia</h2>
+		<p>La transparencia se refiere a la obligación de los gobiernos, organizaciones y empresas 
+			de brindar información clara y accesible al público sobre sus acciones y decisiones.
+			 La transparencia es un valor fundamental en la democracia y en la lucha contra la corrupción.
+		</p>
+	</div>
+</div>
 
     <div class="has-text-centered">
+		<a href="./src/voluntarios.html" target="_blank">
 		<button class="button is-info">¡UNETE!</button>
+	</a>
 	  </div>
 	
 	  <!-- Footer -->
