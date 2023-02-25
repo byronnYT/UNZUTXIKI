@@ -8,13 +8,12 @@
 	<link rel="stylesheet" href="./style.css">
 	<link rel="shortcut icon" href="./Imagenes/LogoColoresDefinitivo.png">
 	<script src="https://kit.fontawesome.com/9ad3ec13bd.js" crossorigin="anonymous"></script>
-	<script src="./js/boton-arriba.js"></script>
 	<title>Unzutxiki Berri | Asociación</title>
 </head>
 
 <body>
 	<header>
-		<button id="btn-top" class="button is-link is-hidden fas fa-arrow-up"></button>
+		
 		<section class="hero is-success is-fullheight">
 			<div class="hero-head">
 				<nav class="navbar sticky">
@@ -23,12 +22,16 @@
 							<img id="logo" src="./Imagenes/LogoColoresDefinitivo.png" alt="Logo">
 						</div>
 						<div id="navbarMenuHeroC" class="navbar-menu">
+
 							<div class="navbar-end">
 								<a class="navbar-item is-active " href="./index.html">
 									Inicio
 								</a>
 								<a class="navbar-item " href="./src/historia.html">
 									Historia
+								</a>
+								<a class="navbar-item" href="./src/agenda2030.html">
+									Agenda 2030
 								</a>
 								<div class="navbar-item has-dropdown is-hoverable">
 									<a href="#" class="navbar-link">
@@ -43,11 +46,11 @@
 										</a>
 									</div>
 								</div>
-								<a class="navbar-item" href="./src/Partners.html">
-									Partners
-								</a>
 								<a class="navbar-item" href="./src/voluntarios.html">
 									Voluntarios
+								</a>
+								<a class="navbar-item" href="./src/Partners.html">
+									Colaboradores
 								</a>
 								<span class="navbar-item">
 									<a class="button is-success is-inverted" href="https://bamadrid.org/ayudanos/">
@@ -106,87 +109,69 @@
 		</nav>
 	</div>
 	<div class="box" id="resumen-unzutxiki">
-	<section class="hero is-medium">
-		<div class="hero-body">
-			<div class="container">
-				<div class="columns is-vcentered">
-					<div class="column is-two-thirds">
-						<h1 class="title">
-							Asociación Unzutxiki Berri
-						</h1>
-						<p class="subtitle">
-							La Asociación Unzutxiki Berri es una entidad que nació en el año 2014 con el objetivo de conseguir que los vecinos de los barrios de Buztintxuri y Rochapea de Pamplona tuvieran cubiertas sus necesidades básicas además de fomentar la inclusión social, la igualdad y el voluntariado. Colabora con entidades como la Fundación "la Caixa" y "CaixaBank", la Fundación Core y el Gobierno de Navarra.
-						</p>
-					</div>
-					<div class="column">
-						<figure class="image is-1by1">
-							<img class="is-rounded" src="./Imagenes/GenteCopmprando.jpg" alt="Imagen de la Asociación Unzutxiki Berri">
-						</figure>
+		<section class="hero is-medium">
+			<div class="hero-body">
+				<div class="container">
+					<div class="columns is-vcentered">
+						<div class="column is-two-thirds">
+							<h1 class="title">
+								Asociación Unzutxiki Berri
+							</h1>
+							<p class="subtitle">
+								La Asociación Unzutxiki Berri es una entidad que nació en el año 2014 con el objetivo de
+								conseguir que los vecinos de los barrios de Buztintxuri y Rochapea de Pamplona tuvieran
+								cubiertas sus necesidades básicas además de fomentar la inclusión social, la igualdad y
+								el voluntariado. Colabora con entidades como la Fundación "la Caixa" y "CaixaBank", la
+								Fundación Core y el Gobierno de Navarra.
+							</p>
+						</div>
+						<div class="column">
+							<figure class="image is-1by1">
+								<img class="is-rounded" src="./Imagenes/Leche.jpg"
+									alt="Imagen de la Asociación Unzutxiki Berri">
+							</figure>
+						</div>
 					</div>
 				</div>
 			</div>
-		</div>
-	</section>
-</div>
-	<!--esto se ha planteado como secion de noticias pero si hacemos apartados separados de 
-	lo de transaparencia ,historia y movidas de esas , yo lo platee para usarlos como enlace-->
-
+		</section>
+	</div>
 	<div class="SeaccionMasInfo bg-band">
 		<div class="columns Masinfo">
 			<div class="box cajasSecciones">
 				<img src="./Imagenes/Diseno-sin-titulo-50.png" class="fotosSaberMas" alt="IMAGENDEDISEÑO">
 				<h2 class="title is-3 tituloSeciones">Quiero <span class="quiero">Ayudar</span></h2>
-				<p class="textoMasInfo">Somos voluntarios de familias y cuidadanso que 
-					pensamos en un futuro con menos desigualdad alimenticia, quieres <a href="./src/voluntarios.html">saber mas</a>?
+				<p class="textoMasInfo">Somos voluntarios de familias y cuidadanso que
+					pensamos en un futuro con menos desigualdad alimenticia, quieres <a
+						href="./src/voluntarios.html">saber mas</a>?
 				</p>
-				<div class="has-text-centered ">
-					<button class="button is-outlined botonMasInfo">
-						<a target="_blank" href="./src/historia.html">
-						<span class="has-text-dark">Saber más</span>
-						<span class="icon has-text-warning">
-						  <i class="fas fa-plus-circle fa-lg"></i>
-						</span>
-						</a>
-					</button>
+
+				<div class="alineacionBotonMasInfo">
+					<a target="_blank" href="./src/voluntarios.html" class="has-text-dark botonMasInfo">Saber Más <i class="fas fa-plus-circle fa-lg"></i></a>
 				</div>
 			</div>
 			<div class="box cajasSecciones">
-				<img src="./Imagenes/En-que-puedo-trabajar-con-la-carrera-de-Historia.png" class="fotosSaberMas" alt="IMAGENDEHISTORIA">
+				<img src="./Imagenes/HISTORIA.png" class="fotosSaberMas"
+					alt="IMAGENDEHISTORIA">
 				<h2 class="title is-3 tituloSeciones">Nuestra <span class="quiero">Historia</span> </h2>
 				<p class="textoMasInfo">La Asociación de familias Unzutxiki Berri nace con el objetivo de
 					cubrir las necesidades básicas de los vecinos del barrio y fomentar la inclusión social,
 					la igualdad y el voluntariado.
 				</p>
-				
-				<div class="has-text-centered ">
-					<button class="button is-outlined botonMasInfo">
-						<a target="_blank" href="./src/historia.html">
-						<span class="has-text-dark">Saber más</span>
-						<span class="icon has-text-warning">
-						  <i class="fas fa-plus-circle fa-lg"></i>
-						</span>
-						</a>
-					</button>
+				<div class="alineacionBotonMasInfo">
+					<a target="_blank" href="./src/historia.html" class="has-text-dark botonMasInfo">Saber Más <i class="fas fa-plus-circle fa-lg"></i></a>
 				</div>
-				
 			</div>
 			<div class="box cajasSecciones">
-				<img src="./Imagenes/bannerQuienesSomos.png" class="fotosSaberMas" alt="IMAGENDEQUIENESSOMOS">
+				<img src="./Imagenes/logo-agenda-2030.jpg" class="fotosSaberMas" alt="IMAGENDEQUIENESSOMOS">
 				<h2 class="title is-3 tituloSeciones">AGENDA <span class="quiero">2030</span></h2>
-				<p class="textoMasInfo">La Agenda 2030 es un plan global de 17 objetivos para erradicar la pobreza, proteger el planeta y asegurar la prosperidad para todos. 
-					Los países miembros de la ONU se comprometieron a implementar estos objetivos para lograr un mundo más justo y sostenible mediante la cooperación y 
-					colaboración.
+				<p class="textoMasInfo">La Agenda 2030 es un plan global de 17 objetivos para erradicar la pobreza,
+					proteger el planeta y asegurar la prosperidad para todos.
 				</p>
-				<div class="has-text-centered ">
-					<button class="button is-outlined botonMasInfo">
-						<a target="_blank" href="https://www.mdsocialesa2030.gob.es/agenda2030/index.htm">
-						<span class="has-text-dark">Saber más</span>
-						<span class="icon has-text-warning">
-						  <i class="fas fa-plus-circle fa-lg"></i>
-						</span>
-						</a>
-					</button>
+				<div class="alineacionBotonMasInfo">
+					<a target="_blank" href="./src/agenda2030.html" class="has-text-dark botonMasInfo">Saber Más <i class="fas fa-plus-circle fa-lg"></i></a>
 				</div>
+
 			</div>
 			<div class="box cajasSecciones">
 				<img src="./Imagenes/transparencia-2.png" class="fotosSaberMas" alt="IMAGENDETRANSPARENCIA">
@@ -195,17 +180,12 @@
 					empresas
 					de brindar información clara y accesible al público sobre sus acciones y decisiones.
 				</p>
-				<a target="_blank" href="./src/transparencia/2022.html" class="has-text-dark has-text-centered botonMasInfo">Saber Más <i class="fas fa-plus-circle fa-lg"></i></a>
+				<div class="alineacionBotonMasInfo">
+					<a target="_blank" href="./src/transparencia/2022.html" class="has-text-dark botonMasInfo">Saber Más <i class="fas fa-plus-circle fa-lg"></i></a>
 				</div>
 			</div>
-			
 		</div>
-	
-
-
-
-	
-
+	</div>
 	<!-- Footer -->
 	<object id="footer" data="./src/footer.html" type="text/html"></object>
 </body>
